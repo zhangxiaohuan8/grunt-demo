@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhangxiaohuan8/grunt-demo.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "zhangxiaohuan",
+  "license": "Mit",
   "bugs": {
     "url": "https://github.com/zhangxiaohuan8/grunt-demo/issues"
   },
@@ -20,8 +20,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "grunt": "^1.0.4",
-    "istanbul": "^0.4.5",
-    "mocha": "^7.0.1"
+    "grunt-mocha-cli": "^5.0.0",
+    "grunt-run": "^0.8.1"
   },
   "dependencies": {
     "grunt-mocha-istanbul": "^5.0.2"
